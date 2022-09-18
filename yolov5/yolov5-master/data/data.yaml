@@ -1,0 +1,6 @@
+train: ../train/images
+val: ../val/images
+
+nc: 3
+# 戴口罩，错误口罩，没带口罩
+names: ['with_mask', 'mask_weared_incorrect', 'without_mask']
